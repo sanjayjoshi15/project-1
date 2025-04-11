@@ -1,31 +1,41 @@
 # project-1
-website_traffic  or fraud-detection-ml.
+Fraud Detection ML
+📦Fraud-Detection-ML/
+├── 📜README.md                    # Project overview, setup instructions, and usage
+├── 📂notebooks/                   # Jupyter Notebooks
+│   └── 📓main_notebook.ipynb      # Main notebook where EDA, modeling, and evaluation are done
+├── 📂data/                        # Raw and processed data files
+│   └── 📄transactions.csv         # Raw transactions data (example: user ID, transaction amount, timestamp, etc.)
+├── 📂visualizations/              # Charts, graphs, and other visual representations
+│   └── 📊fraud_detection_analysis.png  # Visualizing the model’s performance, insights from EDA
+├── 📂models/                      # Saved machine learning models
+│   └── 📦trained_model.pkl        # Trained model saved (e.g., Random Forest, XGBoost, etc.)
+├── 📂reports/                     # Final reports and presentations
+│   ├── 📄Final_Report.pdf         # Detailed project report (summary of methodology, results, and conclusions)
+│   └── 📄fraud_detection_presentation.pptx # PowerPoint presentation for project review
+└── 📄requirements.txt             # Python dependencies (scikit-learn, pandas, etc.)
 
-Website_Traffic_Forecasting/
-│
-├── data/                                    # Raw and processed data files
-│   ├── raw_data/                            # Raw dataset files
-│   │   └── website_traffic_raw.csv          # Raw website traffic data
-│   └── processed_data/                      # Cleaned and preprocessed data files
-│       └── website_traffic_clean.csv        # Preprocessed and cleaned traffic data
-│
-├── notebooks/                               # Jupyter Notebooks for analysis and modeling
-│   ├── 01_data_preprocessing.ipynb          # Data cleaning and preprocessing
-│   ├── 02_feature_engineering.ipynb         # Feature engineering
-│   ├── 03_model_development.ipynb          # Modeling and forecasting
-│   └── 04_evaluation_and_visualization.ipynb # Evaluation, RMSE, MAPE, Visualizations
-│
-├── models/                                  # Saved machine learning models
-│   ├── model_xgboost.pkl                    # XGBoost model for forecasting
-│   └── model_arima.pkl                      # ARIMA model for time series forecasting
-│
-├── reports/                                 # Project reports and presentations
-│   ├── final_report.docx                    # Detailed project report
-│   └── presentation.pptx                    # PowerPoint presentation
-│
-├── visualizations/                          # Power BI/Tableau files
-│   ├── website_traffic_dashboard.pbix       # Power BI dashboard file
-│   └── website_traffic_dashboard.twbx       # Tableau dashboard file
-│
-└── requirements.txt                         # Python dependencies for the project
+Website Traffic Forecasting
+📦Website-Traffic-Forecasting/
+├── 📂data/                        # Raw and processed data files
+│   ├── 📂raw_data/                # Raw dataset files
+│   │   └── 📄website_traffic.csv  # Raw data containing historical website traffic (e.g., date, page views, sessions)
+│   └── 📂processed_data/          # Cleaned and preprocessed data
+│       └── 📄cleaned_traffic.csv  # Cleaned dataset ready for modeling
+├── 📂notebooks/                   # Jupyter Notebooks for analysis and modeling
+│   ├── 📓01_data_preprocessing.ipynb # Cleaning and preprocessing data (handling missing values, date formatting)
+│   ├── 📓02_feature_engineering.ipynb # Creating features such as rolling averages, time-based features, etc.
+│   ├── 📓03_model_development.ipynb  # Developing and training forecasting models (e.g., ARIMA, XGBoost)
+│   └── 📓04_evaluation_and_visualization.ipynb # Evaluating models (RMSE, MAPE) and visualizing results
+├── 📂models/                      # Saved machine learning models
+│   ├── 📦model_xgboost.pkl        # XGBoost forecasting model saved
+│   └── 📦model_arima.pkl          # ARIMA model for time series forecasting
+├── 📂reports/                     # Project reports and presentations
+│   ├── 📄final_report.docx        # A detailed project report (methodology, results, analysis)
+│   └── 📄presentation.pptx        # PowerPoint presentation summarizing key findings and insights
+├── 📂visualizations/              # Power BI/Tableau files for interactive visualizations
+│   ├── 📄website_traffic_dashboard.pbix  # Power BI dashboard file
+│   └── 📄website_traffic_dashboard.twbx  # Tableau dashboard file
+└── 📄requirements.txt             # Python dependencies (pandas, statsmodels, xgboost, etc.)
+
 
