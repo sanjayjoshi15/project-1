@@ -1,4 +1,4 @@
-# project-1
+# project-1, 2
 Fraud Detection ML
 📦Fraud-Detection-ML/
 ├── 📜README.md                    # Project overview, setup instructions, and usage
