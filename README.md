@@ -1,5 +1,5 @@
-# project-1, 2
-Fraud Detection ML
+# project-1
+# Fraud Detection ML
 📦Fraud-Detection-ML/
 ├── 📜README.md                    # Project overview, setup instructions, and usage
 ├── 📂notebooks/                   # Jupyter Notebooks
@@ -15,7 +15,8 @@ Fraud Detection ML
 │   └── 📄fraud_detection_presentation.pptx # PowerPoint presentation for project review
 └── 📄requirements.txt             # Python dependencies (scikit-learn, pandas, etc.)
 
-Website Traffic Forecasting
+# project 2
+# Website Traffic Forecasting
 📦Website-Traffic-Forecasting/
 ├── 📂data/                        # Raw and processed data files
 │   ├── 📂raw_data/                # Raw dataset files
