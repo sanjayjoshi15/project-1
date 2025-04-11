@@ -20,7 +20,7 @@
 📦Website-Traffic-Forecasting/
 ├── 📂data/                        # Raw and processed data files
 │   ├── 📂raw_data/                # Raw dataset files
-│   │   └── 📄website_traffic.csv  # Raw data containing historical website traffic (e.g., date, page views, sessions)
+│   │   └── 📄'data/raw_data/website_traffic.csv'  # Raw data containing historical website traffic (e.g., date, page views, sessions)
 │   └── 📂processed_data/          # Cleaned and preprocessed data
 │       └── 📄cleaned_traffic.csv  # Cleaned dataset ready for modeling
 ├── 📂notebooks/                   # Jupyter Notebooks for analysis and modeling
@@ -39,4 +39,5 @@
 │   └── 📄website_traffic_dashboard.twbx  # Tableau dashboard file
 └── 📄requirements.txt             # Python dependencies (pandas, statsmodels, xgboost, etc.)
 
-
+Power BI dashboard: 'website_traffic_dashboard.pbix'
+Tableau dashboard: 'website_traffic_dashboard.twbx'
