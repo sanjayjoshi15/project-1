@@ -5,7 +5,7 @@
 ├── 📂notebooks/                   # Jupyter Notebooks
 │   └── 📓main_notebook.ipynb      # Main notebook where EDA, modeling, and evaluation are done
 ├── 📂data/                        # Raw and processed data files
-│   └── 📄transactions.csv         # Raw transactions data (example: user ID, transaction amount, timestamp, etc.)
+│   └── 📄'data/raw_data/website_traffic.csv'         # Raw transactions data (example: user ID, transaction amount, timestamp, etc.)
 ├── 📂visualizations/              # Charts, graphs, and other visual representations
 │   └── 📊fraud_detection_analysis.png  # Visualizing the model’s performance, insights from EDA
 ├── 📂models/                      # Saved machine learning models
