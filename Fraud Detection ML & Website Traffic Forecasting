@@ -39,3 +39,13 @@ pip install -r requirements.txt
 
 # Open the notebook
 jupyter notebook notebooks/main_notebook.ipynb
+
+ 6. # Results & Visuals
+1 Link or embed model performance metrics.
+2 Add screenshots of Power BI / Tableau dashboards (or links if hosted).
+
+7. # Conclusion
+Summarize findings and real-world value of your work.
+
+ 8. # Author & Acknowledgments
+Developed by Sanjay Joshi as part of the Master Diploma in Data Science & AI at Boston Institute of Analytics.
