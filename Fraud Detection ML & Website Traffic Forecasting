@@ -1,0 +1,41 @@
+ 1. # Project Title
+# Fraud Detection in Mobile Transactions
+
+ 2. # Overview
+This project aims to detect fraudulent transactions in mobile financial systems using machine learning. It involves comprehensive exploratory data analysis, feature engineering, and development of classification models to identify suspicious patterns and reduce financial risk.
+
+ 3. #  Key Features
+1 Raw data cleaning and preprocessing
+2 EDA and visual insights
+3 Feature engineering (categorical encoding, time features)
+4 Model development: Logistic Regression, Random Forest, XGBoost
+5 Model evaluation: Precision, Recall, F1-Score, ROC-AUC
+6 Visualization dashboards using Power BI/Tableau
+7 Financial impact analysis of fraud detection system
+
+4. # Project Structure
+├── notebooks/
+│   └── main_notebook.ipynb
+├── data/
+│   └── raw_data/fraud_detection.csv
+├── models/
+│   └── trained_model.pkl
+├── visualizations/
+│   └── fraud_detection_analysis.png
+├── reports/
+│   ├── Final_Report.pdf
+│   └── fraud_detection_presentation.pptx
+├── requirements.txt
+└── README.md
+
+# Clone this repository
+git clone https://github.com/sanjayjoshi15/project-1.git
+
+# Navigate to project
+cd Fraud-Detection-ML
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Open the notebook
+jupyter notebook notebooks/main_notebook.ipynb
